@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.f1285.loginpink.PulloverActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_about1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingEnd="10dp"
+                android:textSize="@dimen/about_text1"
+                android:textColor="@color/colorAccent"
+                android:text="Dodgers" />
+
+            <TextView
+                android:id="@+id/text_about2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:text="Version : 1.0.2.4"
+                android:textSize="@dimen/about_text2" />
+
+            <TextView
+                android:id="@+id/text_about3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:textSize="@dimen/about_text2"
+                android:text="Design : Meimei Lin" />
+
+            <TextView
+                android:id="@+id/text_about4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:textSize="@dimen/about_text2"
+                android:text="App code : Meimei Lin" />
+
+            <TextView
+                android:id="@+id/text_about5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:textSize="@dimen/about_text2"
+                android:text="DB code : Shih Hong Yang" />
+
+            <TextView
+                android:id="@+id/text_about6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:textSize="@dimen/about_text2"
+                android:text="Logo design : Jeremy" />
+
+            <TextView
+                android:id="@+id/text_about7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:textSize="@dimen/about_text2"
+                android:text="Copyright © 2017 Meimei Lin All rights reserved" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorAccent"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/text_about8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:text="Do you like this app? If so, please help us and rate in the market." />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_rate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="24dp"
+                android:padding="12dp"
+                android:text="Rate"/>
+
+            <TextView
+                android:id="@+id/text_about9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:text="Don't you like sonething or do you have an idea for improvement." />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_feedback"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="24dp"
+                android:padding="12dp"
+                android:text="Feedback"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
